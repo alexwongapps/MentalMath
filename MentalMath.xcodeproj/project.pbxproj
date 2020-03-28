@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570EFD5C21DC618100525AE0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570EFD5B21DC618100525AE0 /* GameViewController.swift */; };
+		570EFD5E21DC61B600525AE0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570EFD5D21DC61B600525AE0 /* MenuViewController.swift */; };
+		573E992F21EC4AE900E1C87D /* LeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573E992E21EC4AE900E1C87D /* LeaderboardTableViewCell.swift */; };
+		573FEFB421E5936A0026B891 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 573FEFB321E593690026B891 /* CoreBluetooth.framework */; };
+		574DAE7221E5B69900CFC6AF /* GroupModeStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574DAE7121E5B69900CFC6AF /* GroupModeStudentViewController.swift */; };
+		577DF4B42221D28400431A66 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577DF4B32221D28400431A66 /* Messages.framework */; };
+		577DF4B72221D28400431A66 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DF4B62221D28400431A66 /* MessagesViewController.swift */; };
+		577DF4BA2221D28400431A66 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577DF4B82221D28400431A66 /* MainInterface.storyboard */; };
+		577DF4BC2221D28700431A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577DF4BB2221D28700431A66 /* Assets.xcassets */; };
+		577DF4C02221D28700431A66 /* iMessageMath.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 577DF4B22221D28400431A66 /* iMessageMath.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		577DF4C62221D81D00431A66 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DF4C52221D81D00431A66 /* StartGameViewController.swift */; };
+		577DF4C82221DE5B00431A66 /* ContinueGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DF4C72221DE5B00431A66 /* ContinueGameViewController.swift */; };
+		577DF4CA2221E05700431A66 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DF4C92221E05700431A66 /* Game.swift */; };
+		577DF4CC2222342700431A66 /* CompletedGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DF4CB2222342700431A66 /* CompletedGameViewController.swift */; };
+		57842AB221DC9AAF008864E4 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57842AB121DC9AAF008864E4 /* AnswerViewController.swift */; };
+		57A71C4821E594C7006B11C7 /* GroupModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A71C4721E594C7006B11C7 /* GroupModeViewController.swift */; };
+		57BD528721DC4395004C6A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BD528621DC4395004C6A89 /* AppDelegate.swift */; };
+		57BD528C21DC4395004C6A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BD528A21DC4395004C6A89 /* Main.storyboard */; };
+		57BD528E21DC4396004C6A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BD528D21DC4396004C6A89 /* Assets.xcassets */; };
+		57BD529121DC4396004C6A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BD528F21DC4396004C6A89 /* LaunchScreen.storyboard */; };
+		57BD529C21DC4397004C6A89 /* MentalMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BD529B21DC4397004C6A89 /* MentalMathTests.swift */; };
+		57DFC49222128902000AAE19 /* GroupModeInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DFC49122128902000AAE19 /* GroupModeInstructionsViewController.swift */; };
+		F4B6901121DD569F0043B64D /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B6901021DD569F0043B64D /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		577DF4BE2221D28700431A66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BD527B21DC4395004C6A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577DF4B12221D28400431A66;
+			remoteInfo = iMessageMath;
+		};
+		57BD529821DC4397004C6A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57BD527B21DC4395004C6A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57BD528221DC4395004C6A89;
+			remoteInfo = MentalMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		577DF4C42221D28700431A66 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				577DF4C02221D28700431A66 /* iMessageMath.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		570EFD5B21DC618100525AE0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		570EFD5D21DC61B600525AE0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		573E992E21EC4AE900E1C87D /* LeaderboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewCell.swift; sourceTree = "<group>"; };
+		573FEFB321E593690026B891 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		574DAE7121E5B69900CFC6AF /* GroupModeStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModeStudentViewController.swift; sourceTree = "<group>"; };
+		577DF4B22221D28400431A66 /* iMessageMath.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iMessageMath.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		577DF4B32221D28400431A66 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		577DF4B62221D28400431A66 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		577DF4B92221D28400431A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		577DF4BB2221D28700431A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577DF4BD2221D28700431A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577DF4C52221D81D00431A66 /* StartGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
+		577DF4C72221DE5B00431A66 /* ContinueGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueGameViewController.swift; sourceTree = "<group>"; };
+		577DF4C92221E05700431A66 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		577DF4CB2222342700431A66 /* CompletedGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedGameViewController.swift; sourceTree = "<group>"; };
+		57842AB121DC9AAF008864E4 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		57A71C4721E594C7006B11C7 /* GroupModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModeViewController.swift; sourceTree = "<group>"; };
+		57BD528321DC4395004C6A89 /* MentalMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentalMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BD528621DC4395004C6A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57BD528B21DC4395004C6A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57BD528D21DC4396004C6A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57BD529021DC4396004C6A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57BD529221DC4396004C6A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BD529721DC4397004C6A89 /* MentalMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentalMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BD529B21DC4397004C6A89 /* MentalMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalMathTests.swift; sourceTree = "<group>"; };
+		57BD529D21DC4397004C6A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DFC49122128902000AAE19 /* GroupModeInstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModeInstructionsViewController.swift; sourceTree = "<group>"; };
+		F4B6901021DD569F0043B64D /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577DF4AF2221D28400431A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577DF4B42221D28400431A66 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BD528021DC4395004C6A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573FEFB421E5936A0026B891 /* CoreBluetooth.framework in Frameworks */,
+				F4B6901121DD569F0043B64D /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BD529421DC4397004C6A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577DF4B52221D28400431A66 /* iMessageMath */ = {
+			isa = PBXGroup;
+			children = (
+				577DF4B62221D28400431A66 /* MessagesViewController.swift */,
+				577DF4B82221D28400431A66 /* MainInterface.storyboard */,
+				577DF4BB2221D28700431A66 /* Assets.xcassets */,
+				577DF4BD2221D28700431A66 /* Info.plist */,
+				577DF4C52221D81D00431A66 /* StartGameViewController.swift */,
+				577DF4C72221DE5B00431A66 /* ContinueGameViewController.swift */,
+				577DF4C92221E05700431A66 /* Game.swift */,
+				577DF4CB2222342700431A66 /* CompletedGameViewController.swift */,
+			);
+			path = iMessageMath;
+			sourceTree = "<group>";
+		};
+		57BD527A21DC4395004C6A89 = {
+			isa = PBXGroup;
+			children = (
+				57BD528521DC4395004C6A89 /* MentalMath */,
+				57BD529A21DC4397004C6A89 /* MentalMathTests */,
+				577DF4B52221D28400431A66 /* iMessageMath */,
+				57BD528421DC4395004C6A89 /* Products */,
+				F4B6900F21DD569F0043B64D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57BD528421DC4395004C6A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BD528321DC4395004C6A89 /* MentalMath.app */,
+				57BD529721DC4397004C6A89 /* MentalMathTests.xctest */,
+				577DF4B22221D28400431A66 /* iMessageMath.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57BD528521DC4395004C6A89 /* MentalMath */ = {
+			isa = PBXGroup;
+			children = (
+				57842AB121DC9AAF008864E4 /* AnswerViewController.swift */,
+				570EFD5B21DC618100525AE0 /* GameViewController.swift */,
+				57BD528621DC4395004C6A89 /* AppDelegate.swift */,
+				57BD528A21DC4395004C6A89 /* Main.storyboard */,
+				57BD528D21DC4396004C6A89 /* Assets.xcassets */,
+				57BD528F21DC4396004C6A89 /* LaunchScreen.storyboard */,
+				57BD529221DC4396004C6A89 /* Info.plist */,
+				570EFD5D21DC61B600525AE0 /* MenuViewController.swift */,
+				57A71C4721E594C7006B11C7 /* GroupModeViewController.swift */,
+				574DAE7121E5B69900CFC6AF /* GroupModeStudentViewController.swift */,
+				573E992E21EC4AE900E1C87D /* LeaderboardTableViewCell.swift */,
+				57DFC49122128902000AAE19 /* GroupModeInstructionsViewController.swift */,
+			);
+			path = MentalMath;
+			sourceTree = "<group>";
+		};
+		57BD529A21DC4397004C6A89 /* MentalMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				57BD529B21DC4397004C6A89 /* MentalMathTests.swift */,
+				57BD529D21DC4397004C6A89 /* Info.plist */,
+			);
+			path = MentalMathTests;
+			sourceTree = "<group>";
+		};
+		F4B6900F21DD569F0043B64D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				573FEFB321E593690026B891 /* CoreBluetooth.framework */,
+				F4B6901021DD569F0043B64D /* GameKit.framework */,
+				577DF4B32221D28400431A66 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		577DF4B12221D28400431A66 /* iMessageMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577DF4C32221D28700431A66 /* Build configuration list for PBXNativeTarget "iMessageMath" */;
+			buildPhases = (
+				577DF4AE2221D28400431A66 /* Sources */,
+				577DF4AF2221D28400431A66 /* Frameworks */,
+				577DF4B02221D28400431A66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMessageMath;
+			productName = iMessageMath;
+			productReference = 577DF4B22221D28400431A66 /* iMessageMath.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+		57BD528221DC4395004C6A89 /* MentalMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BD52A021DC4397004C6A89 /* Build configuration list for PBXNativeTarget "MentalMath" */;
+			buildPhases = (
+				57BD527F21DC4395004C6A89 /* Sources */,
+				57BD528021DC4395004C6A89 /* Frameworks */,
+				57BD528121DC4395004C6A89 /* Resources */,
+				577DF4C42221D28700431A66 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577DF4BF2221D28700431A66 /* PBXTargetDependency */,
+			);
+			name = MentalMath;
+			productName = MentalMath;
+			productReference = 57BD528321DC4395004C6A89 /* MentalMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57BD529621DC4397004C6A89 /* MentalMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BD52A321DC4397004C6A89 /* Build configuration list for PBXNativeTarget "MentalMathTests" */;
+			buildPhases = (
+				57BD529321DC4397004C6A89 /* Sources */,
+				57BD529421DC4397004C6A89 /* Frameworks */,
+				57BD529521DC4397004C6A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BD529921DC4397004C6A89 /* PBXTargetDependency */,
+			);
+			name = MentalMathTests;
+			productName = MentalMathTests;
+			productReference = 57BD529721DC4397004C6A89 /* MentalMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57BD527B21DC4395004C6A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kids Can Code";
+				TargetAttributes = {
+					577DF4B12221D28400431A66 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					57BD528221DC4395004C6A89 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.GameCenter.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					57BD529621DC4397004C6A89 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 57BD528221DC4395004C6A89;
+					};
+				};
+			};
+			buildConfigurationList = 57BD527E21DC4395004C6A89 /* Build configuration list for PBXProject "MentalMath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57BD527A21DC4395004C6A89;
+			productRefGroup = 57BD528421DC4395004C6A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57BD528221DC4395004C6A89 /* MentalMath */,
+				57BD529621DC4397004C6A89 /* MentalMathTests */,
+				577DF4B12221D28400431A66 /* iMessageMath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577DF4B02221D28400431A66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577DF4BC2221D28700431A66 /* Assets.xcassets in Resources */,
+				577DF4BA2221D28400431A66 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BD528121DC4395004C6A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BD529121DC4396004C6A89 /* LaunchScreen.storyboard in Resources */,
+				57BD528E21DC4396004C6A89 /* Assets.xcassets in Resources */,
+				57BD528C21DC4395004C6A89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BD529521DC4397004C6A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577DF4AE2221D28400431A66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577DF4C82221DE5B00431A66 /* ContinueGameViewController.swift in Sources */,
+				577DF4B72221D28400431A66 /* MessagesViewController.swift in Sources */,
+				577DF4CC2222342700431A66 /* CompletedGameViewController.swift in Sources */,
+				577DF4C62221D81D00431A66 /* StartGameViewController.swift in Sources */,
+				577DF4CA2221E05700431A66 /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BD527F21DC4395004C6A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57842AB221DC9AAF008864E4 /* AnswerViewController.swift in Sources */,
+				570EFD5C21DC618100525AE0 /* GameViewController.swift in Sources */,
+				57DFC49222128902000AAE19 /* GroupModeInstructionsViewController.swift in Sources */,
+				570EFD5E21DC61B600525AE0 /* MenuViewController.swift in Sources */,
+				57A71C4821E594C7006B11C7 /* GroupModeViewController.swift in Sources */,
+				57BD528721DC4395004C6A89 /* AppDelegate.swift in Sources */,
+				574DAE7221E5B69900CFC6AF /* GroupModeStudentViewController.swift in Sources */,
+				573E992F21EC4AE900E1C87D /* LeaderboardTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BD529321DC4397004C6A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BD529C21DC4397004C6A89 /* MentalMathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		577DF4BF2221D28700431A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577DF4B12221D28400431A66 /* iMessageMath */;
+			targetProxy = 577DF4BE2221D28700431A66 /* PBXContainerItemProxy */;
+		};
+		57BD529921DC4397004C6A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57BD528221DC4395004C6A89 /* MentalMath */;
+			targetProxy = 57BD529821DC4397004C6A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		577DF4B82221D28400431A66 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				577DF4B92221D28400431A66 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		57BD528A21DC4395004C6A89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BD528B21DC4395004C6A89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57BD528F21DC4396004C6A89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BD529021DC4396004C6A89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		577DF4C12221D28700431A66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 625H5P8M26;
+				INFOPLIST_FILE = iMessageMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidscancode.MentalMath.iMessageMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		577DF4C22221D28700431A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 625H5P8M26;
+				INFOPLIST_FILE = iMessageMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidscancode.MentalMath.iMessageMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57BD529E21DC4397004C6A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57BD529F21DC4397004C6A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57BD52A121DC4397004C6A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 625H5P8M26;
+				INFOPLIST_FILE = MentalMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidscancode.MentalMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = on;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57BD52A221DC4397004C6A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 625H5P8M26;
+				INFOPLIST_FILE = MentalMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidscancode.MentalMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENFORCE_EXCLUSIVE_ACCESS = on;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57BD52A421DC4397004C6A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 625H5P8M26;
+				INFOPLIST_FILE = MentalMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidscancode.MentalMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalMath.app/MentalMath";
+			};
+			name = Debug;
+		};
+		57BD52A521DC4397004C6A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 625H5P8M26;
+				INFOPLIST_FILE = MentalMathTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidscancode.MentalMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MentalMath.app/MentalMath";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577DF4C32221D28700431A66 /* Build configuration list for PBXNativeTarget "iMessageMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577DF4C12221D28700431A66 /* Debug */,
+				577DF4C22221D28700431A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BD527E21DC4395004C6A89 /* Build configuration list for PBXProject "MentalMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BD529E21DC4397004C6A89 /* Debug */,
+				57BD529F21DC4397004C6A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BD52A021DC4397004C6A89 /* Build configuration list for PBXNativeTarget "MentalMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BD52A121DC4397004C6A89 /* Debug */,
+				57BD52A221DC4397004C6A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BD52A321DC4397004C6A89 /* Build configuration list for PBXNativeTarget "MentalMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BD52A421DC4397004C6A89 /* Debug */,
+				57BD52A521DC4397004C6A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57BD527B21DC4395004C6A89 /* Project object */;
+}
