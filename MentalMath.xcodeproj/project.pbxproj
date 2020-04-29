@@ -66,6 +66,7 @@
 /* Begin PBXFileReference section */
 		570EFD5B21DC618100525AE0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		570EFD5D21DC61B600525AE0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		5739D5062459FADE0043BD07 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		573E992E21EC4AE900E1C87D /* LeaderboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardTableViewCell.swift; sourceTree = "<group>"; };
 		573FEFB321E593690026B891 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		574DAE7121E5B69900CFC6AF /* GroupModeStudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModeStudentViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 		57BD527A21DC4395004C6A89 = {
 			isa = PBXGroup;
 			children = (
+				5739D5062459FADE0043BD07 /* README.md */,
 				57BD528521DC4395004C6A89 /* MentalMath */,
 				57BD529A21DC4397004C6A89 /* MentalMathTests */,
 				577DF4B52221D28400431A66 /* iMessageMath */,
