@@ -865,7 +865,7 @@ extension GroupModeViewController: CBPeripheralDelegate {
     }
     
     func peripheral(_ peripheral: CBPeripheral, didWriteValueFor descriptor: CBDescriptor, error: Error?) {
-        print("writing \(descriptor.characteristic.uuid.uuidString)")
+        print("writing \(descriptor.characteristic?.uuid.uuidString)")
     }
 }
 

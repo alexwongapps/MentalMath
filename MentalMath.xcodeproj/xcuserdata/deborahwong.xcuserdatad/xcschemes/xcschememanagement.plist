@@ -7,12 +7,25 @@
 		<key>MentalMath.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>iMessageMath.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>577DF4B12221D28400431A66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57BD528221DC4395004C6A89</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

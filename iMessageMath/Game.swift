@@ -37,7 +37,7 @@ class Round: CustomStringConvertible {
     }
     
     var description: String {
-        
+        return "\(array) \(answer)"
     }
 }
 

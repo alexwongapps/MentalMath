@@ -16,7 +16,7 @@
 		577DF4B72221D28400431A66 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DF4B62221D28400431A66 /* MessagesViewController.swift */; };
 		577DF4BA2221D28400431A66 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 577DF4B82221D28400431A66 /* MainInterface.storyboard */; };
 		577DF4BC2221D28700431A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577DF4BB2221D28700431A66 /* Assets.xcassets */; };
-		577DF4C02221D28700431A66 /* iMessageMath.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 577DF4B22221D28400431A66 /* iMessageMath.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		577DF4C02221D28700431A66 /* iMessageMath.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 577DF4B22221D28400431A66 /* iMessageMath.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		577DF4C62221D81D00431A66 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DF4C52221D81D00431A66 /* StartGameViewController.swift */; };
 		577DF4C82221DE5B00431A66 /* ContinueGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DF4C72221DE5B00431A66 /* ContinueGameViewController.swift */; };
 		577DF4CA2221E05700431A66 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DF4C92221E05700431A66 /* Game.swift */; };
@@ -50,15 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		577DF4C42221D28700431A66 /* Embed App Extensions */ = {
+		577DF4C42221D28700431A66 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				577DF4C02221D28700431A66 /* iMessageMath.appex in Embed App Extensions */,
+				577DF4C02221D28700431A66 /* iMessageMath.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -225,7 +225,7 @@
 				57BD527F21DC4395004C6A89 /* Sources */,
 				57BD528021DC4395004C6A89 /* Frameworks */,
 				57BD528121DC4395004C6A89 /* Resources */,
-				577DF4C42221D28700431A66 /* Embed App Extensions */,
+				577DF4C42221D28700431A66 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -262,14 +262,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = "Kids Can Code";
 				TargetAttributes = {
 					577DF4B12221D28400431A66 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = "";
 					};
 					57BD528221DC4395004C6A89 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = "";
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -481,6 +483,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -506,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -542,6 +545,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -561,7 +565,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -579,7 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 625H5P8M26;
 				INFOPLIST_FILE = MentalMath/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -600,7 +604,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 625H5P8M26;
 				INFOPLIST_FILE = MentalMath/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

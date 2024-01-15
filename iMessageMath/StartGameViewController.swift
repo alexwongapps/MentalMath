@@ -48,7 +48,6 @@ extension MessagesViewController: StartGameViewControllerDelegate {
         let session = conversation?.selectedMessage?.session
         
         var components = URLComponents()
-        let
         
         requestPresentationStyle(.expanded)
     }
